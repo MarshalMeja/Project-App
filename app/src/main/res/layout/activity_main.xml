@@ -165,14 +165,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
-                    android:text="Randomize" />
+                    android:text="@string/btn_randomize" />
 
                 <Button
                     android:id="@+id/downloadBtn"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Download" />
+                    android:text="@string/btn_download" />
             </LinearLayout>
 
             <Button
@@ -180,7 +180,7 @@
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Batch Generation" />
+                android:text="@string/btn_batch_generation" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
@@ -254,14 +254,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Seat: A-12" />
+                    android:text="@string/default_seat" />
 
                 <TextView
                     android:id="@+id/previewPrice"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="$75" />
+                    android:text="@string/default_price" />
             </LinearLayout>
 
             <ImageView
@@ -276,7 +276,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Ticket #: 123456"
+                android:text="@string/default_ticket_number"
                 android:textSize="12sp" />
         </LinearLayout>
 
