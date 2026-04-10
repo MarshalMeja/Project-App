@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Custom Ticket Generator App</string>
+    <string name="title_custom_ticket_generator">Custom Ticket Generator</string>
+    <string name="hint_event_name">Event Name</string>
+    <string name="default_event_name">Summer Music Festival</string>
+    <string name="hint_date">Date</string>
+    <string name="default_date">July 15, 2026 7:00 PM</string>
+    <string name="hint_venue">Venue</string>
+    <string name="default_venue">Central Park Arena</string>
+    <string name="hint_ticket_holder">Ticket Holder</string>
+    <string name="default_ticket_holder">Alex Johnson</string>
+    <string name="hint_seat">Seat</string>
+    <string name="default_seat">A-12</string>
+    <string name="hint_price">Price</string>
+    <string name="default_price">$75</string>
+    <string name="hint_ticket_number">Ticket Number</string>
+    <string name="default_ticket_number">123456</string>
+    <string name="label_live_preview">Live Preview</string>
+    <string name="label_ticket_holder">Ticket Holder</string>
+    <string name="label_seat_prefix">Seat: %s</string>
+    <string name="label_ticket_number_prefix">Ticket #: %s</string>
+    <string name="desc_qr_code">Ticket QR Code</string>
+    <string name="btn_randomize">Randomize</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_batch_generation">Batch Generation</string>
+    <string name="msg_template_soon">Template switching coming soon</string>
+    <string name="msg_batch_ready">Batch export ready</string>
+    <string name="msg_ticket_saved">Ticket saved (simulated)</string>
+    <string name="msg_batch_soon">Batch generation coming soon</string>
+    <string name="default_month_august">August %1$d, 2026 8:00 PM</string>
 </resources>
